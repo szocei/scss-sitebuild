@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Muli";
+    src: url("./fonts/muli/Muli-ExtraLight.ttf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Catamaran";
+    src: url("./fonts/catamaran/Catamaran-Light.ttf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("./fonts/lato/Lato-Light.ttf");
+    font-weight: 100;
+}
+
+.teloszoveg,
+p,
+.kartya-text,
+footer {
+    font-family: 'Muli', Helvetica,Arial,  sans-serif;
+    font-weight: 100;
+}
+
+.nav-link, 
+.btn {
+font-family: 'Lato',Helvetica,Arial,  sans-serif;
+font-weight: 100;
+}
+
+h1,h2,h3,h4,h5,h6, .cim, label, .kartya-cim {
+    font-family: 'Catamaran', Helvetica,Arial,  sans-serif;
+    font-weight: 100;
+}
+
+.kartya-cim {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.kartya-text {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+
+
+

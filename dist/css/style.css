@@ -1,0 +1,553 @@
+.header {
+  width: 100%;
+  position: fixed;
+  background: #fff;
+  top: 0;
+}
+
+.cim {
+  margin: auto 15vw;
+  color: #1e1e1e;
+}
+.cim:hover {
+  color: #fdcc52;
+}
+
+.cimScroll {
+  margin: auto 15vw;
+  color: #1e1e1e;
+}
+.cimScroll:hover {
+  color: #fdcc52;
+}
+
+nav {
+  display: flex;
+}
+nav div {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+}
+nav div ul {
+  display: none;
+  flex-direction: row;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+nav div ul li {
+  text-align: center;
+}
+nav div ul li a {
+  color: #222;
+  display: block;
+  font-size: 1rem;
+  line-height: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+}
+nav div input[type=checkbox] {
+  display: none;
+}
+nav div input[type=checkbox]:checked + ul {
+  display: flex;
+}
+nav div label {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: row;
+  height: 1.5rem;
+  padding: 0.75rem;
+  margin-right: 1rem;
+}
+
+.nav-link:hover {
+  color: #fdcc52;
+  transition-duration: 300;
+}
+
+.teloszoveg {
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 100;
+  font-family: "Muli";
+  text-align: center;
+  color: #fff;
+}
+
+.topSect--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+.topSect--text {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.telokepDiv {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgTelo {
+  width: 80vw;
+}
+
+.btnDiscover,
+.textUnlimited,
+.felirat--Discover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.storok {
+  width: 50vw;
+  margin: 0.7rem;
+}
+
+.cim--Discover,
+.cimUnlimited {
+  text-align: center;
+  font-size: 2.5rem;
+  max-width: 70vw;
+  line-height: 4rem;
+  padding-top: 50px;
+  margin: auto;
+}
+
+.containerUnlimited {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-telos {
+  width: 25vw;
+}
+
+@font-face {
+  font-family: "Muli";
+  src: url("./fonts/muli/Muli-ExtraLight.ttf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Catamaran";
+  src: url("./fonts/catamaran/Catamaran-Light.ttf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("./fonts/lato/Lato-Light.ttf");
+  font-weight: 100;
+}
+.teloszoveg,
+p,
+.kartya-text,
+footer {
+  font-family: "Muli", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+
+.nav-link,
+.btn {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+
+h1, h2, h3, h4, h5, h6, .cim, label, .kartya-cim {
+  font-family: "Catamaran", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+
+.kartya-cim {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.kartya-text {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .header {
+    background-image: url("./img/bg-pattern.png"), linear-gradient(to right, #da2431 0%, #7a4397 100%);
+    background-repeat: repeat;
+  }
+
+  .cim {
+    color: #fdcc52;
+    transition: color 0.3s;
+  }
+  .cim:hover {
+    color: #fff;
+  }
+
+  nav div {
+    align-items: flex-end;
+  }
+  nav div ul {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+  }
+  nav div label {
+    display: none;
+  }
+
+  .topSect--container {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .btn-telos {
+    width: 12vw;
+  }
+
+  .teloszoveg {
+    width: 60%;
+    font-size: 2.5rem;
+    text-align: left;
+  }
+
+  .imgTelo {
+    width: 25vw;
+  }
+
+  .topSect--text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .telokepDiv {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+  }
+
+  .btnDiscover,
+.textUnlimited,
+.felirat--Discover {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .storok {
+    width: 10rem;
+    margin: 0.7rem;
+  }
+
+  .cim--Discover {
+    text-align: center;
+    font-size: 2.5rem;
+    max-width: 30vw;
+    line-height: 4rem;
+  }
+
+  .cimUnlimited {
+    text-align: center;
+    font-size: 2rem;
+    max-width: 40vw;
+    line-height: 3rem;
+  }
+
+  .containerUnlimited {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    width: 75%;
+  }
+
+  .telokepDiv {
+    flex-basis: 35%;
+  }
+
+  .kartyaDivek {
+    flex-basis: 65%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .kartyaDiv {
+    width: 45%;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.headerdef {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.scrollHeader {
+  background-image: none;
+  background-color: #fff;
+  color: #1e1e1e;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.cimdef {
+  display: inline-block;
+  width: 50%;
+  font-family: "Catamaran", Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+.cimScroll {
+  color: #1e1e1e;
+}
+.cimScroll:hover {
+  color: #fdcc52;
+}
+
+.nav-link {
+  color: #1e1e1e;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+.nav-link:hover {
+  color: #fff;
+}
+
+.scroll-nav-link {
+  color: #1e1e1e;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+.scroll-nav-link:hover {
+  color: #fdcc52;
+}
+
+.topSect {
+  background-image: url("./img/bg-pattern.png"), linear-gradient(to right, #da2431 0%, #7a4397 100%);
+  background-repeat: repeat;
+}
+
+.btn-telos {
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 1.1rem;
+  font-family: "Lato";
+  font-size: 0.8rem;
+  background: none;
+  border-radius: 2rem;
+  transition: background-color 0.3s;
+  margin: 2rem 0;
+}
+.btn-telos:hover {
+  border: 2px solid #fdcc52;
+  color: #fff;
+  background: #fdcc52;
+}
+
+.btn-telos-p {
+  padding-top: 0;
+  width: 60%;
+  text-align: left;
+}
+
+.discover {
+  background: #fdcc52;
+  padding-bottom: 5rem;
+}
+
+.vonal {
+  width: 8vw;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconP {
+  font-size: 4rem;
+  color: maroon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.kartyaDiv {
+  display: flex;
+  flex-direction: column;
+  max-width: 38vw;
+}
+
+.kartyacim {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+.stopWaiting {
+  background-image: url("./img/bg-cta.jpg");
+  opacity: 0.9;
+  backdrop-filter: inherit;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.containerStop {
+  margin: auto 15vw;
+  padding-top: 30vh;
+  width: 80%;
+}
+
+.stopH1 {
+  font-size: 4em;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.stop--btn-div {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#heart {
+  color: red;
+}
+
+.gplus {
+  color: red;
+  opacity: 0.9;
+}
+.gplus > hover {
+  color: red;
+  opacity: 1;
+}
+
+.iconSoc {
+  opacity: 0.9;
+  font-size: 5rem;
+  padding-top: 0;
+  margin-top: 0;
+}
+.iconSoc:hover {
+  opacity: 1;
+}
+
+.containerWelove {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weLove {
+  background-color: #fdcc52;
+}
+
+.weloveCim {
+  font-size: 3rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-top: 15vh;
+}
+
+.weloveIconok {
+  padding-top: 5vh;
+  margin-top: 0;
+  padding-bottom: 15vh;
+}
+
+.footer {
+  background-color: #222222;
+}
+
+.containerFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vh;
+  font-size: 1.2rem;
+}
+
+.footerDiv {
+  color: #5e5e5e;
+}
+
+.footerLink:hover {
+  color: #fdcc52;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-family: "Muli";
+  font-size: 2rem;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

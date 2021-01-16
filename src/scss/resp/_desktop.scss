@@ -1,0 +1,148 @@
+@use "../variables/variables" as *;
+
+@media screen and (min-width:$minW){
+    .header {
+     background-image: url("./img/bg-pattern.png"), $linear;
+     background-repeat: repeat;
+       }
+  .cim {
+       color: $sarga;
+    transition: color 0.3s;
+     &:hover {
+     color: #fff;  
+      }
+    }
+
+      nav div {
+        align-items:flex-end;
+       ul {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+         }
+         label {
+        display: none;
+        }
+    }
+ 
+  .topSect--container {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    }
+
+    .btn-telos {
+      width: 12vw;
+    }
+
+  .teloszoveg{
+    width: 60%;
+    font-size: 2.5rem;
+    text-align: left;
+   }
+
+  .imgTelo {
+   width: 25vw;
+  }
+
+  .topSect--text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    }
+
+   .telokepDiv {
+    width: 50%;
+     display: flex;
+    justify-content: center;
+    margin: 60px;
+    }
+
+
+    //Discover ----------------------
+    
+.btnDiscover,
+.textUnlimited,
+.felirat--Discover
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+    .storok {
+      width: 10rem;
+      margin: 0.7rem;
+    }
+
+.cim--Discover
+{
+    text-align: center;
+    font-size: 2.5rem;
+    max-width: 30vw;
+    line-height: 4rem;
+}
+
+//Unlimited---------------------
+
+.cimUnlimited{
+    text-align: center;
+    font-size: 2rem;
+    max-width: 40vw;
+    line-height: 3rem;
+}
+
+.containerUnlimited{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:auto;
+  width: 75%;
+}
+.telokepDiv{
+  flex-basis: 35%;
+}
+
+.kartyaDivek {
+  flex-basis: 65%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.kartyaDiv {
+  width: 45%;
+  
+  }
+
+  // welove------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

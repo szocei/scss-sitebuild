@@ -1,0 +1,157 @@
+@use "../variables/variables" as *;
+.header {
+    width: 100%;
+    position: fixed;
+    background: #fff;
+    top: 0;
+}
+
+.cim {
+    margin: auto 15vw;
+    color: #1e1e1e;
+    &:hover {
+    color: $sarga;
+     }
+}
+.cimScroll {
+    margin: auto 15vw;
+    color: #1e1e1e;
+    &:hover {
+    color: $sarga;
+    }
+}
+
+nav {
+     display: flex;
+      div {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+         ul {
+         display: none;
+         flex-direction: row;
+         list-style: none;
+         margin: 0 auto;
+         padding: 0;
+         width: 100%;
+                li {
+                     text-align: center;
+                        a {
+                             color: #222;
+                             display: block;
+                             font-size: 1rem;
+                             line-height: 1rem;
+                             padding: 1rem;
+                            text-decoration: none;
+                         }
+                    }
+        }
+        input[type="checkbox"]{
+            display: none;
+         }
+         input[type="checkbox"]:checked + ul {
+            display: flex;
+        }
+        
+        label {
+            align-items: center;
+            cursor: pointer;
+            display: flex;
+            flex-wrap: row;
+            height: 1.5rem;
+            padding: 0.75rem;
+            margin-right: 1rem;
+        }
+    } 
+}
+.nav-link:hover {
+    color: $sarga;
+    transition-duration: 300;
+}
+
+.teloszoveg {
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: "Muli";
+    text-align: center;
+    color: #fff;
+}
+
+
+
+.topSect--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+}
+.topSect--text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+}
+
+.telokepDiv {
+    width: 80%;
+     display: flex;
+    justify-content: center;
+   
+    align-items: center;
+}
+
+.imgTelo {
+   width: 80vw;
+    
+}
+
+//Discover
+
+
+.btnDiscover,
+.textUnlimited,
+.felirat--Discover
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+    .storok {
+      width: 50vw;
+      margin: 0.7rem;
+    }
+
+.cim--Discover,
+.cimUnlimited
+{
+    text-align: center;
+    font-size: 2.5rem;
+    max-width: 70vw;
+    line-height: 4rem;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.containerUnlimited{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-telos {
+    width: 25vw;
+}
+
+//weLove
+
+
+
+
