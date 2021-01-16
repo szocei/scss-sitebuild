@@ -376,6 +376,24 @@ html {
   text-align: left;
 }
 
+.kep {
+  width: 100%;
+  position: relative;
+}
+
+.telo {
+  width: 100%;
+  z-index: -1;
+  top: 0;
+}
+
+.telobelso {
+  position: absolute;
+  top: 11%;
+  left: 6%;
+  width: 88%;
+}
+
 .discover {
   background: #fdcc52;
   padding-bottom: 5rem;
